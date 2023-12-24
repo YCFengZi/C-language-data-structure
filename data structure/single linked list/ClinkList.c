@@ -141,23 +141,23 @@ bool DestoryList(CLinkList *L) {
     return true;
 }
 
-int main() {
-    CLinkList L;
-    CLinkListInit(&L);
-    PrintList(&L);
-    for (int i = 1; i <= 5; i++) {
-        CLinkListHeadInsert(&L, i);
-    }
-    PrintList(&L);
-    for (int i = 6; i <= 10; i++) {
-        CLinkListTailInsert(&L, i);
-    }
-    PrintList(&L);
-//    printf("%d\n", GetElemTwo(&L, 4)->data);
-//    printf("%d\n", LocateElemTwo(&L, 8)->data);
-    CLinkListLocalInsert(&L, 5, 5);
-    DeleteNodeTwo(&L, 5);
-    DestoryList(&L);
-    PrintList(&L);
-    return 0;
-}
+//int main() {
+//    CLinkList L;
+//    CLinkListInit(&L);
+//    PrintList(&L);
+//    for (int i = 1; i <= 5; i++) {
+//        CLinkListHeadInsert(&L, i);
+//    }
+//    PrintList(&L);
+//    for (int i = 6; i <= 10; i++) {
+//        CLinkListTailInsert(&L, i);
+//    }
+//    PrintList(&L);
+////    printf("%d\n", GetElemTwo(&L, 4)->data);
+////    printf("%d\n", LocateElemTwo(&L, 8)->data);
+//    CLinkListLocalInsert(&L, 5, 5);
+//    DeleteNodeTwo(&L, 5);
+//    DestoryList(&L);
+//    PrintList(&L);
+//    return 0;
+//}

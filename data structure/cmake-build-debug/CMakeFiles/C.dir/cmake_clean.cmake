@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/C.dir/Dynamic_and_static_sequence_table/Sqlist.c.obj.d"
   "CMakeFiles/C.dir/Dynamic_and_static_sequence_table/Static_linear_list.c.obj"
   "CMakeFiles/C.dir/Dynamic_and_static_sequence_table/Static_linear_list.c.obj.d"
+  "CMakeFiles/C.dir/Stack/SqStack.c.obj"
+  "CMakeFiles/C.dir/Stack/SqStack.c.obj.d"
   "CMakeFiles/C.dir/single_linked_list/ClinkList.c.obj"
   "CMakeFiles/C.dir/single_linked_list/ClinkList.c.obj.d"
   "CMakeFiles/C.dir/single_linked_list/LinkList.c.obj"

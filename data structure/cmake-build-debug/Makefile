@@ -200,6 +200,30 @@ Dynamic_and_static_sequence_table/Static_linear_list.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/Dynamic_and_static_sequence_table/Static_linear_list.c.s
 .PHONY : Dynamic_and_static_sequence_table/Static_linear_list.c.s
 
+Stack/SqStack.obj: Stack/SqStack.c.obj
+.PHONY : Stack/SqStack.obj
+
+# target to build an object file
+Stack/SqStack.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/Stack/SqStack.c.obj
+.PHONY : Stack/SqStack.c.obj
+
+Stack/SqStack.i: Stack/SqStack.c.i
+.PHONY : Stack/SqStack.i
+
+# target to preprocess a source file
+Stack/SqStack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/Stack/SqStack.c.i
+.PHONY : Stack/SqStack.c.i
+
+Stack/SqStack.s: Stack/SqStack.c.s
+.PHONY : Stack/SqStack.s
+
+# target to generate assembly for a file
+Stack/SqStack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\C.dir\build.make CMakeFiles/C.dir/Stack/SqStack.c.s
+.PHONY : Stack/SqStack.c.s
+
 single_linked_list/ClinkList.obj: single_linked_list/ClinkList.c.obj
 .PHONY : single_linked_list/ClinkList.obj
 
@@ -290,6 +314,9 @@ help:
 	@echo ... Dynamic_and_static_sequence_table/Static_linear_list.obj
 	@echo ... Dynamic_and_static_sequence_table/Static_linear_list.i
 	@echo ... Dynamic_and_static_sequence_table/Static_linear_list.s
+	@echo ... Stack/SqStack.obj
+	@echo ... Stack/SqStack.i
+	@echo ... Stack/SqStack.s
 	@echo ... single_linked_list/ClinkList.obj
 	@echo ... single_linked_list/ClinkList.i
 	@echo ... single_linked_list/ClinkList.s

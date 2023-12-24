@@ -8,4 +8,5 @@ add_executable(C "Dynamic and static sequence table/Static linear list.c"
         "single linked list/single linked list.c"
         "single linked list/LinkList.c"
         "Dynamic and static sequence table/Sqlist.c"
-        "single linked list/ClinkList.c")
+        "single linked list/ClinkList.c"
+        Stack/SqStack.c)

@@ -85,6 +85,9 @@
 		<Unit filename="F:/C-language-data-structure/data structure/Dynamic and static sequence table/Static linear list.c">
 			<Option target="C"/>
 		</Unit>
+		<Unit filename="F:/C-language-data-structure/data structure/Stack/SqStack.c">
+			<Option target="C"/>
+		</Unit>
 		<Unit filename="F:/C-language-data-structure/data structure/single linked list/ClinkList.c">
 			<Option target="C"/>
 		</Unit>
